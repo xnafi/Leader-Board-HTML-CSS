@@ -11,7 +11,8 @@ body main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 
 
 }
@@ -253,12 +254,10 @@ hr {
 @media screen and (max-width:576px) {
     main {
         width: 100%;
-        overflow: hidden;
     }
 
     body {
         width: 100%;
-        overflow: hidden;
     }
 
     .header {
@@ -327,12 +326,10 @@ hr {
 @media screen and (min-width:577px) and (max-width:992px) {
     main {
         width: 100%;
-        overflow: hidden;
     }
 
     body {
         width: 100%;
-        overflow: hidden;
     }
 
     .header {
