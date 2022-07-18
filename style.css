@@ -262,6 +262,10 @@ hr {
         display: none;
     }
 
+    hr {
+        width: 100%;
+    }
+
     .top-player, .top-blog, .course {
         width: 100%;
         background-color: white;
@@ -330,6 +334,10 @@ hr {
     }
 
     body {
+        width: 100%;
+    }
+
+    hr {
         width: 100%;
     }
 
