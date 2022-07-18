@@ -1,8 +1,91 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.container {
+    width: 870px;
+    display: flex;
+    align-items: center;
+
+}
+
+/* <!-- Header Section Start --> */
+.header {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(86, 46, 255, 1);
+
+
+}
+
+.header nav {
+    width: 870px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.nav-bannar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bannar i {
+    font-size: 36px;
+
+
+
+}
+
+.nav-bannar h3 {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 15px;
+
+}
+
+
+nav ul img {
+    height: 51px;
+    width: 51px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36px;
+}
+
+nav ul li {
+    margin-left: 36px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+/* <!-- Header Section end --> */
+
+
+/* <!-- top players Section start --> */
+/* <!-- top players Section start --> */
+
