@@ -11,6 +11,8 @@ body main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
 
 }
 
@@ -249,9 +251,14 @@ hr {
 
 /* media querry mobile */
 @media screen and (max-width:576px) {
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+
     body {
         width: 100%;
-        margin: 0 auto;
+        overflow: hidden;
     }
 
     .header {
@@ -318,10 +325,14 @@ hr {
 /* media querry tab */
 
 @media screen and (min-width:577px) and (max-width:992px) {
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
 
     body {
         width: 100%;
-        margin: 0 auto;
+        overflow: hidden;
     }
 
     .header {
@@ -332,7 +343,7 @@ hr {
         width: 100%;
         background-color: white;
         display: grid;
-                
+
     }
 
     .course-container {
@@ -349,22 +360,25 @@ hr {
     }
 
     .players-info, .blog-container {
-       display: grid;
-       grid-template-columns: repeat(2,1fr);
-       justify-content: center;
-       align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
 
     }
-    .blogs{
+
+    .blogs {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .blog-info {
         padding-left: 0px;
     }
-    .course-container{
+
+    .course-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
