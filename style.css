@@ -92,7 +92,8 @@ nav ul li {
     padding: 33px 0px 0px 30px;
     margin-top: 36px;
 }
-.top-player h2{
+
+.top-player h2 {
     font-size: 24px;
     color: rgba(86, 46, 255, 1);
 }
@@ -112,7 +113,7 @@ nav ul li {
 
 .players h4 {
     margin-left: 16px;
-    
+
 
 }
 
@@ -130,4 +131,29 @@ hr {
 
 }
 
-/* <!-- top players Section start --> */
+/* <!-- top players Section end --> */
+
+
+/* <!-- top blog Section start --> */
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 16px;
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
+.blogs{
+    display: flex;
+}
+
+.blog-img img {
+    height: 117px;
+    width: 177px;
+
+}
+.blog-info{
+    padding-left: 16px;
+}
+
+
+/* <!-- top blog Section end --> */
